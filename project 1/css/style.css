@@ -1,19 +1,16 @@
 body{
 	font-family: Helvetica;
-	 background-image: url("http://kingofwallpapers.com/grid/grid-002.jpg");
-	 background-size: 25%;
-	 background-repeat: repeat;
+	background-image: url("http://kingofwallpapers.com/grid/grid-002.jpg");
+	background-size: 25%;
+	background-repeat: repeat;
 }
 img {
 	width: 250px;
-	height: auto;
 	position: inline;
 	margin-bottom: 15px;
 }
 h1 {
-	background-color: ;
 	font-size: 100px;
-	color: ;
 	display: inline;
 	margin: 0px;
 	padding: 0px;
