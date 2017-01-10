@@ -1,19 +1,20 @@
 body{
 	font-family: Helvetica;
 	 background-image: url("http://kingofwallpapers.com/grid/grid-002.jpg");
-	 background-size: 100%;
+	 background-size: 25%;
+	 background-repeat: repeat;
 }
 img {
 	width: 250px;
 	height: auto;
-	display: block;
+	position: inline;
 	margin-bottom: 15px;
 }
 h1 {
 	background-color: ;
 	font-size: 100px;
 	color: ;
-	display: inline-block;
+	display: inline;
 	margin: 0px;
 	padding: 0px;
 }
@@ -32,6 +33,7 @@ div ul {
 	color: cyan;
 	margin-bottom: 5px;
 	display:inline;
+	float: inline-right;
 }
 
 .column2 h2 {
@@ -40,6 +42,7 @@ div ul {
 	color: magenta;
 	margin-bottom: 5px;
 	display:inline;
+	float: inline-right;
 }
 .column3 h2 {
 	width: 130px;
@@ -47,21 +50,25 @@ div ul {
 	color: yellow;
 	margin-bottom: 5px;
 	display:inline;
+	float: inline-right;
 }
 .column {
 	column-width: 50%;
 	padding: 4px;
+	float: inline-right;
 }
 
 .column2 {
 	column-width: 50%;
 	padding: 4px;
+	float: inline-right;
 
 }
 
 .column3 {
 	column-width: 50%;
 	padding: 4px;
+	float: inline-right;
 }
 
 .column4 {
@@ -70,8 +77,17 @@ div ul {
 	display:inline;
 	font-weight: lighter;
 	font-size: .8em;
+	float: inline-right;
 
 }
 ul {
 	list-style-type: upper-roman;
+}
+
+@media screen and (max-width: 480px){ 
+	.column { width: 100% }
+}
+
+@media screen and (min-width: 480px){ 
+	.column { width: 50% }
 }
