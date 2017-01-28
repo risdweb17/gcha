@@ -1,21 +1,15 @@
-
-
-
-
 h1 {
-	color: cyan;
-	font-size: 180px;
+	color: white;
+	font-size: 88px;
+	text-align: center;
 	position: absolute;
-	top: 540px;
-	left: 50px;
+	top: 40px;
+	line-height: 80px;
 }
 
-body{
-	white-space: nowrap
-}
 iframe {
-	display: inline-block;
 	width:100vw;
-	margin-top: 115px;
 }
-
+a {
+	text-align: center;
+}
