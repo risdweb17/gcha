@@ -1,0 +1,48 @@
+body {
+	font-size: 40px;
+	font-family: 'Libre Baskerville';
+	color: black;
+}
+html {
+  background: white;
+  background: -webkit-linear-gradient(white, black);
+  background:    -moz-linear-gradient(white, black);
+  background:         linear-gradient(white, black);
+}
+ul {
+    list-style-type:none;
+}
+h1 {
+	margin-bottom: 0px;
+}
+.intro {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.articles {
+}
+h1 {
+	font-size: 300%;
+}
+
+span.dropt span {
+	position: absolute; 
+	margin: 0px 0 0 0px; 
+	padding: 3px 3px 3px 3px;
+}
+span.dropt:hover span {
+	left: 10%;
+} 
+span.dropt span {
+	position: absolute; left: -9999px; 
+	margin: 4px 0 0 0px; 
+	padding: 3px;
+}
+span.dropt:hover span {
+	margin: 0px;
+} 
+.end {
+	font-size: 10px;
+	color: cyan;
+ }
