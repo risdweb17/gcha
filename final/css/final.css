@@ -1,0 +1,29 @@
+
+h1 {
+  font-family: Libre Baskerville;
+  font-size: 50px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+  z-index: 10;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+@media screen and (max-width: 300px){
+  h1{
+    font-size: 30px;
+  }
+}
