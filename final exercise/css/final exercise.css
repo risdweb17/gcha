@@ -1,55 +1,74 @@
+body {
+	background-color: black;
+}
 h1 {
-	font-family: 'Crimson Text', serif;
-	font-size: 1em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2em;
+	color: white;
+
+}
+.title {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3em;
+	padding: 40px;
+	color: white;
+	text-align: right;
 }
 
-.title {
-	font-size: 4em;
-}
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: white;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
+    background-color: black;
+    padding-left: 50px;
+    cursor: crosshair;
     border: none;
-    cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: ;
-    min-width: 160px;
-    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+    left: 25%;
     z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+    color: white;
+    margin-left: 25px;
+    float: left;
+    font-family: 'Libre Baskerville';
     text-decoration: none;
-    display: block;
+    display: inline;
+    text-align: center;
+    width: 25px;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+	color: #bffff7;
+	font-size: 3em;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: ;
+/* Change the background color of the dropdown button
+ when the dropdown content is shown */
+.dropdown:hover .dropbtn h1{
+	color: #91ffc0;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 500px){
+  .title {
+    font-size: 2em;
+  }
 }
