@@ -14,21 +14,20 @@
   </head>
 
   <body>
-    <div class="dropdown">
-    <button class="dropbtn">
-        <h1> RISD Map </h1>
-     </button>
+        <div class="dropdown">
+        <button class="dropbtn">
+          <h1> RISD Map </h1>
+          </button>
   <div class="dropdown-content">
-      <a href="final.html"> Home </a>
+    <a href="final.html"> Home </a>
     <br>
     <a href="final-food.html"> Food </a>
-        <br>
+    <br>
     <a href="final-resources.html"> Resources </a>
-        <br>
+    <br>
     <a href="final-parking.html"> Parking </a>
 </div>
 </div>
-
 
     <div id='map'> </div>
 
@@ -37,13 +36,13 @@
 
         var map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/camelliacha/ciyv9nsia000b2sl46mq729ar'
+          style: 'mapbox://styles/camelliacha/ciyv9nxvd000c2sl41vxr1gmn'
         });
 
     // code from the next step will go here
             map.on('click', function(e) {
           var features = map.queryRenderedFeatures(e.point, {
-            layers: ['resources'] // replace this with the name of the layer
+            layers: ['risd (1)'] // replace this with the name of the layer
           });
 
 
