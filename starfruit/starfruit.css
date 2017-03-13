@@ -1,13 +1,22 @@
 body {
-	background: linear-gradient(green, yellow, orange, #A24E00);
-   	cursor: url('sun.jpg'), auto;
+   background: linear-gradient(green, yellow, orange, #A24E00, #6b4700);
+   cursor: url(fruit.jpg);
 }
+
+h1 {
+  font-size: 40px;
+  color: yellow;
+  font-family: 'Lora', serif;
+  margin: 50px;
+  position: fixed;
+  float: right;
+}
+
 
 #star-five {
 float: left;
    margin: 50px 25px 50px 25px;
    position: relative;
-
    color: white;
    width: 0px;
    height: 0px;
@@ -52,4 +61,81 @@ float: left;
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
+}
+img {
+  height: 200px;
+  width: 200px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.green img {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+ .green img:hover {
+  width: 50px;
+  height: 50px;
+     -webkit-transform: rotate(-180deg);
+}
+
+
+.greeneryellow img {
+  height: 150px;
+  width: 150px;
+}
+ .greeneryellow img:hover {
+  width: 100px;
+  height: 100px;
+     -webkit-transform: rotate(-90deg);
+}
+
+
+ .greenyellow img:hover {
+  width: 150px;
+  height: 150px;
+     -webkit-transform: rotate(-90deg);
+}
+
+
+ .greenyellower img:hover {
+  width: 250px;
+  height: 250px;
+     -webkit-transform: rotate(-90deg);
+}
+
+
+ .yellow img:hover {
+  width: 500px;
+  height: 500px;
+     -webkit-transform: rotate(-360deg);
+}
+
+
+ .yellowerorange img:hover {
+  width: 150px;
+  height: 150px;
+     -webkit-transform: rotate(-90deg);
+}
+
+
+ .yelloworange img:hover {
+  width: 100px;
+  height: 100px;
+}
+
+
+.orange img {
+  height: 150px;
+  width: 150px;
+  margin: 40px;
+}
+ .orange img:hover {
+  width: 50px;
+  height: 50px;
 }
