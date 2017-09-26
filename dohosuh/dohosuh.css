@@ -1,10 +1,12 @@
 
 a {
-	text-decoration:none;
+
+	color: white;
+	}
+a:hover{
+	color: #3f00ff;
 	}
 h1 {
-	stroke-color: #3f00ff;
-	color: none;
 	position: absolute;
 	font-size: 20px;
 	font-family: 'Encode Sans Expanded', sans-serif;
