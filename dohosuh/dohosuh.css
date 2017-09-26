@@ -1,8 +1,12 @@
 
+a {
+	text-decoration:none;
+	}
 h1 {
-	color: white;
+	stroke-color: #3f00ff;
+	color: none;
 	position: absolute;
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Encode Sans Expanded', sans-serif;
 }
 canvas {
@@ -12,4 +16,5 @@ canvas {
 
 body {
 	background-color: black;
+    cursor:move;
 }
