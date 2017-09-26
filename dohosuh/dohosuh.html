@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HOME WITHIN HOME WITHIN HOME WITHIN HOME WITHIN HOME</title>
+    <link rel="stylesheet" href="dohosuh.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+    <script type="text/javascript" src="paper.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+               tool.minDistance = 5;
+
+            function onMouseUp(event) {
+                var myCircle = new Path.Circle({
+                    center: event.point,
+                    radius: 800
+                });
+                myCircle.strokeColor = 'white';
+                myCircle.fillColor = 'white';
+                myCircle.opacity = '.3';
+            }
+
+        function onMouseDrag(event) {
+            var circle = new Path.Circle({
+                center: event.middlePoint,
+                radius: event.delta.length / 3
+            });
+            circle.fillColor = '#3f00ff';
+            circle.strokeColor = '#3f00ff';
+            circle.opacity = '.1';
+        }
+
+        function onResize(event) {
+    path.position = view.center;
+}
+    </script>
+</head>
+<body>
+    <H1>HOME WITHIN HOME WITHIN HOME WITHIN HOME WITHIN HOME</H1>
+    <canvas id="canvas" resize="true"></canvas>
+
+</body>
+</html>

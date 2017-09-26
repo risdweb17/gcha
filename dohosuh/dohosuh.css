@@ -1,0 +1,15 @@
+
+h1 {
+	color: white;
+	position: absolute;
+	font-size: 15px;
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+canvas {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	background-color: black;
+}
