@@ -1,3 +1,10 @@
+#works1 {
+	width: 10%;
+}
+#name {
+	width: 20%;
+	filter: invert(100%);
+}
 h1 {
 	size: 50px;
 }
@@ -15,10 +22,6 @@ p{
 	size: 30px;
 }
 
-img {
-	max-width: 50px;
-	position: inline;
-	filter: invert(100%);
-}
 h2{ 
-	size: 10px}
+	size: 10px;
+}
