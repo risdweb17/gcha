@@ -1,0 +1,16 @@
+
+#box1 {
+	background-color: #19aeff;
+	opacity: .3;
+	height: 90px;
+	width: 100%;
+	position: fixed;
+}
+body {
+	font-family: 'Helvetica';
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}

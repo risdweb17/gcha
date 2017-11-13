@@ -1,0 +1,24 @@
+h1 {
+	size: 50px;
+}
+body {
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 100px;
+	font-family: 'Roboto Mono', monospace;
+	background-color: black;
+	color: white;
+}
+
+p{
+	max-width: 500px;
+	size: 30px;
+}
+
+img {
+	max-width: 50px;
+	position: inline;
+	filter: invert(100%);
+}
+h2{ 
+	size: 10px}
