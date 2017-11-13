@@ -1,9 +1,14 @@
-#works1 {
-	width: 10%;
+#works img{
+	width: 50%;
 }
 #name {
-	width: 20%;
+	max-width: 20%;
 	filter: invert(100%);
+}
+#worksok img{
+	width: 50%;
+	float: right;
+	display: inline;
 }
 h1 {
 	size: 50px;
