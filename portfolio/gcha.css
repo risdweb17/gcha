@@ -1,15 +1,10 @@
-#works img{
-	width: 50%;
-}
 #name {
 	max-width: 20%;
 	filter: invert(100%);
+	margin-bottom: -30px;
+	margin-right: -20px;
 }
-#worksok img{
-	width: 50%;
-	float: right;
-	display: inline;
-}
+
 h1 {
 	size: 50px;
 }
@@ -22,13 +17,10 @@ body {
 	color: white;
 }
 
-p{
+p {
 	max-width: 500px;
 	size: 30px;
-}
-
-h2{ 
-	size: 10px;
+	line-height: 150%;
 }
 
 #years {
@@ -45,6 +37,21 @@ h2{
 mark {
 	background-color: yellow;
 }
-a{
+a {
 	color: blue;
+}
+
+@media screen and (max-width:800px) {
+	p {
+		font-size: 15px;
+	}
+	#years {
+		display: block;
+		float: left;
+		margin-top: 90px;
+		text-align: left;
+	}
+	#years a{
+		font-size: 50px;
+	}
 }
