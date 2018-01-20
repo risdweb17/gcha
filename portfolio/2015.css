@@ -1,14 +1,25 @@
 #works img{
-	width: 50%;
+	width: 30%;
 
 }
 #name {
-	max-width: 20%;
+	max-width: 10%;
 	filter: invert(100%);
 	margin-bottom: -30px;
 	margin-right: -20px;
 }
-
+#menu {
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+	margin-right: 40px;
+	position: absolute;
+	right: 0;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
 #worksok img{
 	width: 50%;
 	float: right;
@@ -17,6 +28,8 @@
 
 h1 {
 	size: 50px;
+	text-align: right;
+	margin-right: 50px;
 }
 body {
 	font-weight: bold;
@@ -26,8 +39,11 @@ body {
 	background-color: black;
 	color: white;
 }
-
 p {
 	max-width: 500px;
 	size: 30px;
+}
+#menu a:hover{
+	text-decoration: underline;
+	color: yellow;
 }

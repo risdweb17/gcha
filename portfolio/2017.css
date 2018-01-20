@@ -11,6 +11,20 @@
 
 h1 {
 	size: 50px;
+	text-align: right;
+	margin-right: 50px;
+}
+#menu {
+	font-size: 20px;
+	text-align: right;
+	text-decoration: none;
+	margin-right: 40px;
+		position: absolute;
+	right: 0;
+}
+#menu a{
+	color:white;
+		text-decoration: none;
 }
 body {
 	font-weight: bold;
@@ -24,4 +38,8 @@ body {
 p {
 	max-width: 500px;
 	size: 30px;
+}
+#menu a:hover{
+	text-decoration: underline;
+	color: yellow;
 }
