@@ -3,10 +3,9 @@
 
 }
 #name {
-	max-width: 10%;
-	filter: invert(100%);
-	margin-bottom: -30px;
-	margin-right: -20px;
+	max-width: 30%;
+	margin-bottom: -25px;
+	margin-right: -35px;
 }
 
 h1 {
@@ -14,17 +13,17 @@ h1 {
 	text-align: right;
 	margin-right: 50px;
 }
+
 #menu {
 	font-size: 20px;
 	text-align: right;
-	text-decoration: none;
 	margin-right: 40px;
-		position: absolute;
+	position: fixed;
 	right: 0;
 }
-#menu a{
+a{
 	color:white;
-		text-decoration: none;
+	text-decoration: none;
 }
 body {
 	font-weight: bold;
@@ -39,7 +38,17 @@ p {
 	max-width: 500px;
 	size: 30px;
 }
-#menu a:hover{
+a:hover{
 	text-decoration: underline;
 	color: yellow;
+}
+
+#LP {
+	width: 500px;
+	display: block;
+}
+
+#info {
+	width: 500px;
+	display: inline;
 }

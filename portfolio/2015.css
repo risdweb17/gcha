@@ -1,15 +1,15 @@
-#name {
-	max-width: 10%;
-	filter: invert(100%);
-	margin-bottom: -30px;
-	margin-right: -20px;
-}
+
 #menu {
 	font-size: 20px;
 	text-align: right;
 	margin-right: 40px;
-	position: absolute;
+	position: fixed;
 	right: 0;
+}
+#name {
+	max-width: 30%;
+	margin-bottom: -25px;
+	margin-right: -35px;
 }
 a{
 	color:white;
@@ -30,4 +30,20 @@ body {
 #menu a:hover{
 	text-decoration: underline;
 	color: yellow;
+}
+
+#works img{
+	height: 300px;
+	margin-right: -3px;
+	margin-left: -3px;
+}
+#oscar img {
+	border: .5px solid white;
+}
+#oscar {
+	display: inline-block;
+	margin-left: 10px;
+}
+#row2 img{
+	height: 400px;
 }
