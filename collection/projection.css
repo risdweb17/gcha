@@ -2,7 +2,14 @@
 
 body{
   background: black;
+}
+
+.text {
   color: white;
+  margin-top: -350px;
+  margin-right: -200px;
+  font-size: 20px;
+  text-align: right;
 }
 
 .slideshow-container {
@@ -10,6 +17,9 @@ body{
   position: fixed;
   margin-top: 40px;
   margin-left: 300px;
+}
+.slideshow-container img{
+  filter: grayscale(1);
 }
 
 .mySlides {
@@ -68,7 +78,8 @@ iframe {
 }
 
 .videos {
-  margin-left: 100px;
+  margin-left: 0px;r
+  display: inline-block;
 }
 
 .box {
@@ -78,9 +89,4 @@ iframe {
   margin-left: 300px;
   margin-top: 40px;
   position: fixed;
-}
-
-.box h1{
-  text-align: center;
-  margin-top: 340px;
 }
