@@ -13,10 +13,10 @@ body{
 }
 
 .slideshow-container {
-  max-width: 500px;
+  max-width: 900px;
   position: fixed;
-  margin-top: 40px;
-  margin-left: 300px;
+  margin-top: 0px;
+  margin-left: 400px;
 }
 .slideshow-container img{
   filter: grayscale(1);
@@ -78,7 +78,7 @@ iframe {
 }
 
 .videos {
-  margin-left: 0px;r
+  margin-left: -20px;
   display: inline-block;
 }
 
@@ -86,7 +86,7 @@ iframe {
   background: black;
   height: 500px;
   width: 500px;
-  margin-left: 300px;
+  margin-left: 400px;
   margin-top: 40px;
   position: fixed;
 }
