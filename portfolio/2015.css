@@ -31,19 +31,25 @@ body {
 	text-decoration: underline;
 	color: yellow;
 }
-
 #works img{
 	height: 300px;
 	margin-right: -3px;
 	margin-left: -3px;
 }
 #oscar img {
-	border: .5px solid white;
-}
-#oscar {
-	display: inline-block;
-	margin-left: 10px;
+	border: .2px solid white;
 }
 #row2 img{
 	height: 400px;
+}
+
+h4:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#fomoimages{
+	display: none;
+}
+.myClass {
+	display:inline;
 }
